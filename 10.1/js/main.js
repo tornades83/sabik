@@ -4,7 +4,7 @@ const Cars = ["Honda", "Mazda", "Toyota", "Suzuki", "Yamaha", "Nissan"]; //(1)(2
 var word = "Meir Sabbah"                              //(9)(10)(11)(12)(13)
 //var question = prompt( "what car would you like to know if I own in my collection").toLowerCase   ();                                                  //honda -- HONDA  (1)(2)(3)
 // var question = prompt(
-    // "what car would you like to know if I own in my collection"
+// "what car would you like to know if I own in my collection"
 // );                                                  //(4)
 //var result = word.split(" ")                             //['meir , "Sabbah" , "is" , ] (11)
 //var result = word.split("")                         //[m,e,i,r,s,](12)
@@ -13,15 +13,15 @@ result = result.reverse()                           // (13)
 //var result = Cars.indexOf(question)               //savoir ou il est placer l'object. (3)
 // var result = Cars.join(" ;)\n")    //(",") //                  // il prent tous les voiture et il nous donne tous les object et les colle ensemble. (4)
 //Cars.pop()                                   //enlever le dernier element. (5)
-// Cars.sort()                                    //met les object en ordre alphabetique. (6)
-// Cars.reverse()                                 //met les object a l'enver.(7)
-// alert(Cars.slice(1,3))                            //sa donne une tranche du array ex:(1 , 3)le 3 il ne donne pas il donne le 1 et le 2.(8)
+//Cars.sort()                                    //met les object en ordre alphabetique. (6)
+//Cars.reverse()                                 //met les object a l'enver.(7)
+//alert(Cars.slice(1,3))                            //sa donne une tranche du array ex:(1 , 3)le 3 il ne donne pas il donne le 1 et le 2.(8)
 //alert(Cars.toUppercase()); //(4)
 //alert(word[word.length - 1])                        //il donne la position par raport au letre du nom. (9)
 alert(word.indexOf("a"))                       // il donne par rapor a la letre qui est entre paranteze. (10)(11)
 alert(result.join(""))                         //(13)
 // var result = "non";                             //(1)
-// for (let i = 0; i < Cars.length; i++) {            
+// for (let i = 0; i < Cars.length; i++) {
 // if (Cars[i].toLowerCase() === question) {
 // result = "oui";
 // break;
